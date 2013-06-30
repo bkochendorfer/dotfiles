@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Script
+Type=Application
+Exec=/home/brettk/bin/xfce_wallpaper.sh
+StartupNotify=false
+Hidden=false
