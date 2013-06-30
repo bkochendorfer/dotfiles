@@ -8,7 +8,7 @@
 
 modify_and_open(){
   touch $FILE
-  chmod +X $FILE
+  chmod +x $FILE
   $EDITOR $FILE > /dev/tty
 }
 
