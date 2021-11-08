@@ -4,11 +4,23 @@ call plug#begin('~/.vim/plugged')
 " CoC
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" Fugitive (Git Blame and such)
+Plug 'tpope/vim-fugitive'
+
 " Github URL
 Plug 'pgr0ss/vim-github-url'
 
 " Nerd Tree
 Plug 'scrooloose/nerdtree'
+
+" Nvim Dashboard
+Plug 'glepnir/dashboard-nvim'
+
+" Smoooooth scroll
+Plug 'terryma/vim-smooth-scroll'
+
+" Tcomment
+Plug 'tomtom/tcomment_vim'
 
 " Terraform
 Plug 'hashivim/vim-terraform'
