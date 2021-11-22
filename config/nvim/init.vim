@@ -16,6 +16,9 @@ Plug 'scrooloose/nerdtree'
 " Nvim Dashboard
 Plug 'glepnir/dashboard-nvim'
 
+" Prettier
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+
 " Smoooooth scroll
 Plug 'terryma/vim-smooth-scroll'
 
