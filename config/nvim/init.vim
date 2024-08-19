@@ -1,6 +1,8 @@
 " Install plugins
 call plug#begin('~/.vim/plugged')
 
+set number
+
 if exists('g:vscode')
   " VSCode Extension
    Plug 'asvetliakov/vim-easymotion'
